@@ -1,0 +1,2 @@
+/*! (c) Andrea Giammarchi */
+function withLevel0(e){"use strict";var t="_"+e;Object.defineProperty(HTMLElement.prototype,"on"+e,{configurable:!0,get:function(){return this[t]||null},set:function(n){var i=this;switch(i[t]&&i.removeEventListener(e,i[t],!1),typeof n){case"function":i.addEventListener(e,n,!1);case"object":i[t]=n;break;default:i[t]=null}}})}
