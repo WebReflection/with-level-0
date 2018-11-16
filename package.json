@@ -2,7 +2,9 @@
   "name": "with-level-0",
   "version": "0.1.0",
   "description": "Simplifies DOM Level 0 API implementation via Level 3 listeners.",
-  "main": "index.js",
+  "main": "cjs/index.js",
+  "module": "esm/index.js",
+  "unpkg": "min.js",
   "scripts": {
     "build": "npm run cjs && npm run esm && npm run min && npm run size",
     "cjs": "cp index.js cjs/ && echo 'module.exports = withLevel0;' >> cjs/index.js",
@@ -14,5 +16,18 @@
   "license": "ISC",
   "devDependencies": {
     "uglify-js": "^2.8.29"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebReflection/with-level-0.git"
+  },
+  "keywords": [
+    "dom",
+    "events",
+    "listeners"
+  ],
+  "bugs": {
+    "url": "https://github.com/WebReflection/with-level-0/issues"
+  },
+  "homepage": "https://github.com/WebReflection/with-level-0#readme"
 }
