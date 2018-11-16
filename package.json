@@ -1,6 +1,6 @@
 {
   "name": "with-level-0",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Simplifies DOM Level 0 API implementation via Level 3 listeners.",
   "main": "cjs/index.js",
   "module": "esm/index.js",
