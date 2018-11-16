@@ -1,6 +1,6 @@
 /*! (c) Andrea Giammarchi */
 function withLevel0(type) {'use strict';
-  var _type = '_' + type;
+  var _type = '_on' + type;
   Object.defineProperty(
     HTMLElement.prototype,
     'on' + type,
